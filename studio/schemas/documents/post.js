@@ -9,8 +9,19 @@ export default {
 			type: 'string'
 		},
 		{
+			name: 'slug',
+			type: 'slug',
+			options: {
+				source: 'title'
+			}
+		},
+		{
 			name: 'featured_image',
 			type: 'image'
+		},
+		{
+			name: 'body',
+			type: 'richtext'
 		},
 		{
 			name: 'author',
